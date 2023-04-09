@@ -1,6 +1,6 @@
 # ວີທີຕິດຕັ້ງໂປຣເຈັກ
 
-ພາສາທີ່ໃຊ້ພັດທະນາເວັບ Furnituer ReactJS and tailwindcss
+Furnituer ພາສາທີ່ໃຊ້ພັດທະນາເວັບ ReactJS and tailwindcss
 
 ກ່ອນອືນໃຫ້ Copy URL ນີ້ໄປ Clone
 
@@ -22,4 +22,4 @@ Run app / ເປິດແອັບ
 
     npm start
 
-ສີ້ນສຸດ
+#ສີ້ນສຸດ
