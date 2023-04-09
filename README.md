@@ -1,6 +1,6 @@
 # ວີທີຕິດຕັ້ງໂປຣເຈັກ
 
-Furnituer ReactJS and tailwindcss
+ພາສາທີ່ໃຊ້ພັດທະນາເວັບ Furnituer ReactJS and tailwindcss
 
 ກ່ອນອືນໃຫ້ Copy URL ນີ້ໄປ Clone
 
