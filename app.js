@@ -9,6 +9,7 @@ var usersRouter = require('./routes/users');
 var typeproRouter = require('./routes/typepro');
 var ImpoType = require('./routes/ImportType')
 var Pro_Type = require('./routes/Products.Type')
+var Pro_Items = require('./routes/Product.Items')
 var Login = require('./routes/Login')
 var SellType = require('./routes/SellType.rotes')
 
@@ -50,6 +51,7 @@ app.use('/v4', SellType)
 app.use('/profile', express.static('./upload/IMG'))
 
 app.use('/v1', Pro_Type)
+app.use('/v2', Pro_Items)
 
 
 app.use('/Login', Login)

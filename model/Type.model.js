@@ -1,5 +1,4 @@
 const mongoose = require('mongoose')
-const data = require('./mdTypePro');
 
 const Schema = new mongoose.Schema({
     

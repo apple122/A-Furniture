@@ -134,7 +134,7 @@ router.put('/pro_type/put/:id', ImControl.PUT)
  *       description: Not found
  *    500:
  *       description: Some server error
- */
+ */ 
 router.delete('/pro_type/del/:id', ImControl.Del)
 
 module.exports = router;
