@@ -6,6 +6,8 @@ export default function Dashboard() {
 
     let {
         APITYPE,
+        APIUsers,
+        APIITEMS
     } = useFunctions()
 
     return (
@@ -21,14 +23,18 @@ export default function Dashboard() {
                     <div class="grid grid-cols-4 gap-4 mb-4">
                         <div class="items-center p-5 rounded bg-gray-50 h-auto dark:bg-gray-800">
                             <p class="text-3xl text-white">{APITYPE.length}</p>
-                            <p class="text-xl pb-2 text-gray-400">ປະເພດສີນຄ້າ</p>
+                            <p class="text-xl pb-2 text-gray-400">ປະເພດສີນຄ້າ ທັ້ງໝົດ</p>
                             <p class="text-xl text-gray-400 dark:text-gray-500">+</p>
                         </div>
-                        <div class="flex items-center justify-center rounded bg-gray-50 h-28 dark:bg-gray-800">
-                            <p class="text-2xl text-gray-400 dark:text-gray-500">+</p>
+                        <div class="items-center p-5 rounded bg-gray-50 h-auto dark:bg-gray-800">
+                            <p class="text-3xl text-white">{APIITEMS.length}</p>
+                            <p class="text-xl pb-2 text-gray-400">ລາຍການສີນຄ້າ ທັ້ງໝົດ</p>
+                            <p class="text-xl text-gray-400 dark:text-gray-500">+</p>
                         </div>
-                        <div class="flex items-center justify-center rounded bg-gray-50 h-28 dark:bg-gray-800">
-                            <p class="text-2xl text-gray-400 dark:text-gray-500">+</p>
+                        <div class="items-center p-5 rounded bg-gray-50 h-auto dark:bg-gray-800">
+                            <p class="text-3xl text-white">{APIUsers.length}</p>
+                            <p class="text-xl pb-2 text-gray-400">All Users</p>
+                            <p class="text-xl text-gray-400 dark:text-gray-500">+</p>
                         </div>
                         <div class="flex items-center justify-center rounded bg-gray-50 h-28 dark:bg-gray-800">
                             <p class="text-2xl text-gray-400 dark:text-gray-500">+</p>
