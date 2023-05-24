@@ -6,8 +6,6 @@ export default function Form_Type() {
 
     const { Submit, open, handleOpen, handleClose } = useContext(Context_Type)
 
-
-
     return (
         <>
             <button type='button' onClick={handleOpen} className='p-2 bg-blue-500 rounded text-white'><i class="bi bi-plus-lg"></i> | ເພີມຂໍ້ມູນ</button>
